@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scene change</title>
+</head>
+<body>
+    <style>
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+        .imgs{
+            width: 500px; 
+            border: 2px double black;
+            border-radius: 10px;
+        }
+        .btn{
+            margin-top: 20px;
+            width: 500px;
+            height: 60px;
+            font-size: 18px;
+            font-weight: 300;
+            background-color: lightskyblue;
+            border-radius: 10px;
+            box-shadow: 0px 6px 15px lightblue;
+            cursor: pointer;
+            border: 1px double black;
+        }
+    </style>
+
+
+    <div class="container">
+        <h1 id="heading">change the scenary by clicking the button</h1>
+       <img class="imgs" src="./img/08.jpg" alt="night">
+       <button class="btn">click me</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
